@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <title>Contacto</title>
+  </head>
+  <body class="fondo">
+    <main>
+      <!-- Barra de navegacion  -->
+      <header>
+        <nav id="menu">
+          <ul>
+            <li class="nav_menu"><a href="./index.html">Inicio</a></li>
+            <li class="nav_menu"><a href="./productos.html">Productos</a></li>
+            <li class="nav_menu"><a href="./contacto.html">Contacto</a></li>
+            <li class="nav_menu"><a href="./ayuda.htm">Ayuda</a></li>
+
+            <!-- Link al whatsapp -->
+            <li>
+              <a href="http://wa.link/lijvwy"
+                ><img
+                  src="./imagenes/whatsapp.png"
+                  alt="whasp"
+                  width="35px"
+                  height="35px"
+              /></a>
+            </li>
+
+            <!-- Link al Instagram -->
+
+            <li>
+              <a href="https://www.instagram.com/3dgprint/?hl=es">
+                <img
+                  src="./imagenes/instagram.png"
+                  alt="Instagram"
+                  width="35px"
+                  height="35px"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="cuerpo2"></div>
+
+      <div class="contenedor_imagen4">
+        <!--Formulario -->
+        <div class="campo">
+          <form action="">
+            <fieldset>
+              <legend>Completa tus datos</legend>
+
+              <!-- Input para nombre y apellido -->
+
+              <label for="nombre">Nombre</label>
+
+              <input id="nombre" name="datos" type="text" />
+              <br />
+              <br />
+              <label for="apellido">Apellido</label>
+              <input id="apellido" name="datos " type="text" />
+
+              <br />
+              <br />
+              <!-- Input para telefono e e-mail -->
+
+              <label for="numero">Teléfono</label>
+
+              <input
+                type="text"
+                id="numero"
+                name="datos"
+                placeholder="(n° area)xxxxxxxx"
+              />
+              <br />
+              <br />
+              <label for="email">E-mail </label>
+
+              <input type="email" name="email" placeholder="usuario@xxx.com" />
+
+              <!-- Input de Comentarios  -->
+              <h3>Comentarios</h3>
+
+              <label for="comentario" id="comentario" name="datos"></label>
+              <textarea rows="8" cols="36"></textarea>
+
+              <br />
+              <br />
+
+              <!-- Botones de enviar y reseteo -->
+              <input type="submit" />
+              <input type="reset" />
+            </fieldset>
+          </form>
+        </div>
+        <div class="contenedor_imagen3">
+          <img src="./imagenes/luna.jpg" alt="luna" class="luna_imagen" />
+          <img
+            src="./imagenes/luna_terminada.jpg"
+            alt="luna"
+            class="luna_imagen"
+          />
+        </div>
+      </div>
+    </main>
+
+    <div class="cuerpo2"></div>
+
+    <footer>
+      <p>
+        © Copyright 3DG PRINT 2020| Diseñador WEB: Florencia Urrejola Ferrer |
+        Aviso legal -Politica de privacidad
+      </p>
+    </footer>
+  </body>
+</html>

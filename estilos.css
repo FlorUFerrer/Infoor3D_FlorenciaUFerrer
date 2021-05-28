@@ -1,0 +1,168 @@
+/* CSS APLICADO DIRECTO*/
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url(./imagenes/PLA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(245, 242, 242);
+}
+
+footer {
+  background-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  text-align: center;
+  color: white;
+  margin: 0x;
+  position: fixed; /* FOOTER AL FINAL DE PAGINA*/
+  bottom: 0;
+  width: 100%;
+}
+
+/*CLASES */
+
+/*------Menu de navegacion usando ID----*/
+
+#menu ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+#menu ul li a {
+  display: flex;
+  color: rgb(19, 18, 18);
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 150%;
+  padding: 15px;
+  text-decoration: none;
+  font-style: inherit;
+  font-weight: bolder;
+}
+
+.nav_menu:hover {
+  background-color: rgb(253, 247, 247);
+  border-radius: 10%;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/*----------------------------------*/
+
+/*---CLASE PARA LISTA CON CHEBOX---*/
+.cuadro {
+  display: inline-block;
+  height: 100%;
+  list-style: none;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+  vertical-align: top;
+}
+
+/*---CLASE ESPACIOS EN LA PAGINA ----*/
+.cuerpo {
+  height: 600px;
+}
+
+.cuerpo2 {
+  height: 100px;
+}
+
+.cuerpo3 {
+  height: 5px;
+}
+
+/*TAMAÑO DE IMAGENES*/
+
+.imagen {
+  background-color: rgb(76, 75, 85);
+  background-position: center;
+  border-radius: 50px;
+  height: 600px;
+  margin: 30px;
+
+  padding: 2px;
+  width: 600px;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease-in-out;
+}
+
+/*POSICIONAMIENTO DE IMAGEN*/
+
+.contenedor_imagen {
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-row: repeat(5, 1fr);
+  text-align: center;
+}
+
+.contenedor_imagen2 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: center;
+}
+
+.contenedor_imagen3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.contenedor_imagen4 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  text-align: center;
+}
+
+/*--COLOR DE FONDO DE PAGINA--*/
+.fondo {
+  background: linear-gradient(
+    45deg,
+    rgb(129, 126, 128) 45%,
+    rgba(43, 42, 42, 1) 100%
+  );
+}
+
+/*--TAMAÑO DEL FORMULARIO--*/
+.campo {
+  height: 450px;
+  margin: 20px;
+  padding: 10px;
+
+  width: 100px;
+}
+
+fieldset {
+  width: 400px;
+  height: 400px;
+}
+
+/*--IMAGEN LUNA--*/
+
+.luna_imagen {
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+}
