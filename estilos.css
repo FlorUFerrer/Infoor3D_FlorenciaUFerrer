@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-image: url(./imagenes/PLA.jpg);
+  background-color: rgb(7, 7, 7);
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
@@ -46,7 +46,7 @@ footer {
 
 #menu ul li a {
   display: flex;
-  color: rgb(19, 18, 18);
+  color: rgb(235, 229, 229);
   font-style: italic;
   font-weight: bolder;
   font-size: 150%;
@@ -138,11 +138,7 @@ footer {
 
 /*--COLOR DE FONDO DE PAGINA--*/
 .fondo {
-  background: linear-gradient(
-    45deg,
-    rgb(129, 126, 128) 45%,
-    rgba(43, 42, 42, 1) 100%
-  );
+  background: whitesmoke;
 }
 
 /*--TAMAÑO DEL FORMULARIO--*/
