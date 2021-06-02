@@ -96,11 +96,11 @@ footer {
   background-color: rgb(76, 75, 85);
   background-position: center;
   border-radius: 50px;
-  height: 600px;
+  height: 350px;
+  width: 350px;
   margin: 30px;
 
   padding: 2px;
-  width: 600px;
 }
 
 .imagen:hover {
