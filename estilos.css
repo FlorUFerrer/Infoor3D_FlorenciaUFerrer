@@ -66,6 +66,10 @@ footer {
   border-bottom-right-radius: 30px;
 }
 
+#menu ul li a:hover {
+  color: black;
+}
+
 /*----------------------------------*/
 
 /*---CLASE PARA LISTA CON CHEBOX---*/
