@@ -42,6 +42,7 @@ footer {
   list-style: none;
   text-decoration: none;
   justify-content: flex-end;
+  margin-top: 15px;
 }
 
 #menu ul li a {
@@ -58,6 +59,7 @@ footer {
 
 .nav_menu:hover {
   background-color: rgb(253, 247, 247);
+
   border-radius: 10%;
   cursor: pointer;
   border-top-left-radius: 30px;
