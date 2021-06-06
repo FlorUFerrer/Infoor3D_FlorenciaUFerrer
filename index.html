@@ -18,41 +18,95 @@
   <body class="fondo">
     <main>
       <!-- Barra de navegacion  -->
-      <header>
-        <nav id="menu">
-          <ul>
-            <li class="nav_menu"><a href="./index.html">Inicio</a></li>
-            <li class="nav_menu"><a href="./productos.html">Productos</a></li>
-            <li class="nav_menu"><a href="./contacto.html">Contacto</a></li>
-            <li class="nav_menu"><a href="./ayuda.htm">Ayuda</a></li>
+      <nav class="navbar-expand-lg navbar-light">
+        <div>
+          <div
+            class="collapse navbar-collapse fondo_nav"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav" id="menu">
+              <li class="nav-item nav_menu">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
 
-            <!-- Link al whatsapp -->
-            <li>
-              <a href="http://wa.link/lijvwy"
-                ><img
-                  src="./imagenes/whatsapp.png"
-                  alt="whasp"
-                  width="35px"
-                  height="35px"
-              /></a>
-            </li>
+              <li class="nav-item dropdown nav_menu">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="fondo_negro">
+                    <a class="dropdown-item centrar" href="./figuras.html"
+                      >Figuras</a
+                    >
+                  </li>
+                  <li class="fondo_negro">
+                    <a class="dropdown-item centrar" href="./mates.html"
+                      >Mates</a
+                    >
+                  </li>
 
-            <!-- Link al Instagram -->
+                  <li class="fondo_negro">
+                    <a class="dropdown-item centrar" href="./jardineria.html"
+                      >Jardineria</a
+                    >
+                  </li>
+                  <li class="fondo_negro">
+                    <a class="dropdown-item centrar" href="./productos.html"
+                      >Todos</a
+                    >
+                  </li>
+                </ul>
+              </li>
 
-            <li>
-              <a href="https://www.instagram.com/3dgprint/?hl=es">
-                <img
-                  src="./imagenes/instagram.png"
-                  alt="Instagram"
-                  width="35px"
-                  height="35px"
-                />
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+              <li class="nav-item nav_menu">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
 
+              <li class="nav-item nav_menu">
+                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+              </li>
+
+              <li class="nav-item">
+                <!-- Link al whatsapp -->
+                <a class="nav-link" href="http://wa.link/lijvwy"
+                  ><img
+                    src="./imagenes/whatsapp.png"
+                    alt="whasp"
+                    width="35px"
+                    height="35px"
+                /></a>
+              </li>
+              <!-- Link al Instagram -->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/3dgprint/?hl=es"
+                >
+                  <img
+                    src="./imagenes/instagram.png"
+                    alt="Instagram"
+                    width="35px"
+                    height="35px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="cuerpo2"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -67,8 +121,8 @@
                     src="./imagenes/robert.png"
                     class="d-block w-100"
                     alt="..."
-                    width="650px "
-                    height="700px"
+                    width="800px "
+                    height="750px"
                   />
                 </div>
                 <div class="carousel-item">
@@ -77,8 +131,8 @@
                     "
                     class="d-block w-100"
                     alt="..."
-                    width="650px "
-                    height="700px"
+                    width="800px "
+                    height="750px"
                   />
                 </div>
                 <div class="carousel-item">
@@ -86,8 +140,8 @@
                     src="./imagenes/figurasdeaccion.jpg"
                     class="d-block w-100"
                     alt="..."
-                    width="650px "
-                    height="700px"
+                    width="800px "
+                    height="750px"
                   />
                 </div>
               </div>
@@ -119,8 +173,10 @@
           </div>
         </div>
       </div>
-      <div class="contenedor_imagen2">
-        <!-- Checkbox de los filtros -->
+
+      <div class="cuerpo3"></div>
+      <!-- Checkbox de los filtros -->
+      <!-- 
         <div class="cuadro">
           <form action="">
             <input type="search" name="filtros" />
@@ -129,40 +185,40 @@
             <br />
             <label for="figuras">Figuras de acción</label>
             <input type="checkbox" name="filtros" id="figuras" />
-
+            
             <br />
             <br />
-
+            
             <label for="jardineria">Jardineria</label>
             <input type="checkbox" name="filtros" id="jardineria" />
             <br />
             <br />
-
+            
             <label for="cocina">Cocina</label>
             <input type="checkbox" name="filtros" id="cocina" />
             <br />
             <br />
-
+            
             <label for="mate">Mates</label>
             <input type="checkbox" name="filtros" id="mate" />
             <br />
             <br />
-
+            
             <label for="lamparas">Lámparas</label>
             <input type="checkbox" name="filtros" id="lamparas" />
             <br />
             <br />
-
+            
             <label for="acc_celulares">Accesorios para celulares</label>
             <input type="checkbox" name="filtros" id="acc_celulares" />
             <br />
             <br />
-
+            
             <label for="llaveros">Llaveros</label>
             <input type="checkbox" name="filtros" id="llaveros" />
             <br />
             <br />
-
+            
             <label for="corta_galletas">Corta galletas</label>
             <input type="checkbox" name="filtros" id="corta_galletas" />
             <br />
@@ -175,7 +231,7 @@
             <input type="checkbox" name="filtros" id="menorprecio" />
             <br />
             <br />
-
+            
             <label for="mayorprecio">Mayor precio</label>
             <input type="checkbox" name="filtros" id="mayorprecio" />
             <br />
@@ -189,7 +245,8 @@
           <img src="./imagenes/señalador.jpg" alt="libreria" class="imagen" />
         </div>
       </div>
-
+      
+    -->
       <br />
     </main>
 
