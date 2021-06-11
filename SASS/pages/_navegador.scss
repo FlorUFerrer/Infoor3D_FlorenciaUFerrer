@@ -2,19 +2,18 @@
 
 #menu ul li {
   padding: $sizepx - 85;
+  a {
+    display: grid;
+    color: $color-blanco;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: $sizeper * 1.5;
+    padding: $sizepx - 85;
+    text-decoration: none;
+    font-style: inherit;
+    font-weight: bolder;
+  }
 }
-#menu li a {
-  display: grid;
-  color: $color-blanco;
-  font-style: italic;
-  font-weight: bolder;
-  font-size: $sizeper * 1.5;
-  padding: $sizepx - 85;
-  text-decoration: none;
-  font-style: inherit;
-  font-weight: bolder;
-}
-
 #menu li a:hover {
   color: $color-negro;
 }
