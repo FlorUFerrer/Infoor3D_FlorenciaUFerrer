@@ -1,26 +1,36 @@
 @charset "UTF-8";
-/*--COLOR DE FONDO DE PAGINA--*/
-.fondo {
-  background: whitesmoke;
-}
-
+/* CSS APLICADO DIRECTO*/
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
+footer {
+  background-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  text-align: center;
+  color: white;
+  margin: 0x;
+  position: fixed;
+  /* FOOTER AL FINAL DE PAGINA*/
+  bottom: 0;
+  width: 100%;
+}
+
+/*CLASES */
 ol,
 ul {
   list-style: none;
 }
 
-/*Menu_de_navegacion*/
+/*------Menu de navegacion usando ID----*/
 #menu ul li {
   padding: 15px;
 }
 
-#menu ul li a {
+#menu li a {
   display: -ms-grid;
   display: grid;
   color: #ebe5e5;
@@ -34,11 +44,11 @@ ul {
 }
 
 #menu li a:hover {
-  color: #000000;
+  color: #050505;
 }
 
 .nav_menu a:hover {
-  background-color: #ebe5e5;
+  background-color: #f5f1f1;
   border-radius: 10%;
   cursor: pointer;
   margin: 5px;
@@ -48,11 +58,11 @@ ul {
 
 .fondo_nav {
   height: 80px;
-  background-color: #000000;
+  background-color: black;
 }
 
 .fondo_negro {
-  background-color: #000000;
+  background-color: black;
 }
 
 .centrar {
@@ -60,11 +70,35 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 /*----------------------------------*/
+/*---CLASE PARA LISTA CON CHEBOX---*/
+.cuadro {
+  display: inline-block;
+  height: 100%;
+  list-style: none;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+  vertical-align: top;
+}
+
+/*---CLASE ESPACIOS EN LA PAGINA ----*/
+.cuerpo {
+  height: 600px;
+}
+
+.cuerpo2 {
+  height: 70px;
+}
+
+.cuerpo3 {
+  height: 5px;
+}
+
 /*TAMAÑO DE IMAGENES*/
 .imagen {
   background-color: #4c4b55;
@@ -78,7 +112,7 @@ ul {
 
 .imagen:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
@@ -96,7 +130,7 @@ ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 80%;
   text-align: center;
 }
 
@@ -104,7 +138,7 @@ ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   text-align: center;
 }
 
@@ -112,10 +146,15 @@ ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
+  grid-template-columns: 40% 60%;
   -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
+  grid-template-rows: 100%;
   text-align: center;
+}
+
+/*--COLOR DE FONDO DE PAGINA--*/
+.fondo {
+  background: whitesmoke;
 }
 
 /*--TAMAÑO DEL FORMULARIO--*/
@@ -136,42 +175,5 @@ fieldset {
   width: 400px;
   height: 500px;
   border-radius: 5px;
-}
-
-/*---CLASE ESPACIOS EN LA PAGINA ----*/
-.cuerpo {
-  height: 600px;
-}
-
-.cuerpo2 {
-  height: 70px;
-}
-
-.cuerpo3 {
-  height: 5px;
-}
-
-/*---CLASE PARA LISTA CON CHEBOX---*/
-.cuadro {
-  display: inline-block;
-  height: 100%;
-  list-style: none;
-  text-align: left;
-  padding-top: 50px;
-  padding-left: 50px;
-  vertical-align: top;
-}
-
-footer {
-  background-color: #000000;
-  border-radius: 5px;
-  border-style: groove;
-  text-align: center;
-  color: #ebe5e5;
-  margin: 0px;
-  position: fixed;
-  /* FOOTER AL FINAL DE PAGINA*/
-  bottom: 0px;
-  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
