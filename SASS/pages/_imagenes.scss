@@ -1,0 +1,66 @@
+/*TAMAÑO DE IMAGENES*/
+
+.imagen {
+  background-color: $color-imagen_fondo;
+  background-position: center;
+  border-radius: $sizepx / 2;
+  height: $sizepx * 3.5;
+  width: $sizepx * 3.5;
+  margin: $sizepx - 70;
+
+  padding: $sizepx - 98;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease-in-out;
+}
+
+/*POSICIONAMIENTO DE IMAGEN*/
+
+.contenedor_imagen {
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-row: repeat(5, 1fr);
+  text-align: center;
+}
+
+.contenedor_imagen2 {
+  display: grid;
+  grid-template-columns: $sizeper - 80 $sizeper - 20;
+  text-align: center;
+}
+
+.contenedor_imagen3 {
+  display: grid;
+  grid-template-columns: $sizeper / 2 $sizeper / 2;
+  text-align: center;
+}
+
+.contenedor_imagen4 {
+  display: grid;
+  grid-template-columns: $sizeper / 2.5 $sizeper - 40;
+  grid-template-rows: $sizeper;
+  text-align: center;
+}
+
+/*--TAMAÑO DEL FORMULARIO--*/
+.campo {
+  height: $sizepx * 4.5;
+  margin: $sizepx / 5;
+  padding: $sizepx / 10;
+  width: $sizepx;
+}
+
+fieldset {
+  width: $sizepx * 4;
+  height: $sizepx * 4;
+}
+
+/*--IMAGEN LUNA--*/
+
+.luna_imagen {
+  width: $sizepx * 4;
+  height: $sizepx * 5;
+  border-radius: $sizepx / 20;
+}

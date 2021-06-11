@@ -1,0 +1,11 @@
+footer {
+  background-color: $color-negro;
+  border-radius: $sizepx / 20;
+  border-style: groove;
+  text-align: center;
+  color: $color-blanco;
+  margin: $inicial;
+  position: fixed; /* FOOTER AL FINAL DE PAGINA*/
+  bottom: $inicial;
+  width: $sizeper;
+}

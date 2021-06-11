@@ -1,0 +1,10 @@
+/*---CLASE PARA LISTA CON CHEBOX---*/
+.cuadro {
+  display: inline-block;
+  height: $sizeper;
+  list-style: none;
+  text-align: left;
+  padding-top: $sizepx / 2;
+  padding-left: $sizepx / 2;
+  vertical-align: top;
+}
