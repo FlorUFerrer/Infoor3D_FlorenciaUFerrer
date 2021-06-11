@@ -1,5 +1,5 @@
 footer {
-  background-color: $color-verde;
+  background-color: $color-negro;
   color: $color-blanco;
   border-radius: $sizepx / 20;
   border-style: groove;
@@ -8,4 +8,9 @@ footer {
   position: fixed; /* FOOTER AL FINAL DE PAGINA*/
   bottom: $inicial;
   width: $sizeper;
+  div {
+    padding: $sizepx / 10;
+    margin-top: $sizepx / 10;
+    height: $sizepx / 2;
+  }
 }
