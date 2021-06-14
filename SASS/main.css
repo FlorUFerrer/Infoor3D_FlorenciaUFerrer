@@ -43,6 +43,24 @@ ul {
   color: #0c0c0c;
 }
 
+/* COLOR VERDE DE ICONO WHASP*/
+.redes:hover {
+  color: #33e050;
+}
+
+.redes-insta:hover {
+  color: #ad253c;
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .nav_menu a:hover {
   background-color: #ebe5e5;
   border-radius: 10%;
