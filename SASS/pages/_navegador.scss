@@ -18,8 +18,23 @@
   font-style: inherit;
   font-weight: bolder;
 }
+
 #menu li a:hover {
   color: $color-negro;
+}
+
+/* COLOR VERDE DE ICONO WHASP*/
+.redes:hover {
+  color: $color-verde;
+}
+
+.redes-insta:hover {
+  color: $color-pink;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
 }
 
 .nav_menu a:hover {
