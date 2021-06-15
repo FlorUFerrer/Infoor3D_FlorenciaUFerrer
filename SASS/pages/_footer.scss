@@ -7,10 +7,8 @@ footer {
   margin: $inicial;
   position: fixed; /* FOOTER AL FINAL DE PAGINA*/
   bottom: $inicial;
-  width: $sizeper;
+  width: $sizevw;
   div {
-    padding: $sizepx / 10;
     margin-top: $sizepx / 10;
-    height: $sizepx / 2;
   }
 }

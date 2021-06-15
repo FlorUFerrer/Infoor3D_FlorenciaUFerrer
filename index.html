@@ -12,7 +12,6 @@
       name="keywords"
       content="3d , impresiones 3d, macetas robert plant , pla, infoor , mates personalizados ,  "
     />
-    <link rel="stylesheet" href="./SASS/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -20,6 +19,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./SASS/main.css" />
     <script
       src="https://kit.fontawesome.com/5945415512.js"
       crossorigin="anonymous"
@@ -27,38 +27,40 @@
     <title>Infoor 3D</title>
   </head>
 
-  <body class="fondo">
+  <body>
     <main>
       <!-- Barra de navegacion  -->
-      <nav class="navbar-expand-lg navbar-light">
-        <div>
-          <div
-            class="collapse navbar-collapse fondo_nav"
-            id="navbarNavDropdown"
+      <nav class="navbar navbar-expand-lg navbar-light fondo_negro">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://drive.google.com/uc?export=view&id=1UoWIRxUvX6Oaa8w3Uxi2pkCobnS-I50c"
+              alt="logo"
+              width="100px"
+              height="100px"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <div>
-              <img
-                src="https://drive.google.com/uc?export=view&id=1UoWIRxUvX6Oaa8w3Uxi2pkCobnS-I50c"
-                alt="logo"
-                width="100px"
-                height="100px"
-              />
-            </div>
-
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav" id="menu">
               <li class="nav-item nav_menu">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
+                <a class="nav-link active" aria-current="page" href="index.html"
                   >Inicio</a
                 >
               </li>
-
               <li class="nav-item dropdown nav_menu">
                 <a
                   class="nav-link"
-                  href="#"
+                  href="productos.html"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -66,39 +68,38 @@
                 >
                   Productos
                 </a>
-                <ul class="dropdown-menu">
-                  <li class="fondo_negro">
-                    <a class="dropdown-item centrar" href="./figuras.html"
+                <ul
+                  class="dropdown-menu fondo_negro"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item nav_menu" href="figuras.html"
                       >Figuras</a
                     >
                   </li>
-                  <li class="fondo_negro">
-                    <a class="dropdown-item centrar" href="./mates.html"
+                  <li>
+                    <a class="dropdown-item nav_menu" href="mates.html"
                       >Mates</a
                     >
                   </li>
-
-                  <li class="fondo_negro">
-                    <a class="dropdown-item centrar" href="./jardineria.html"
+                  <li>
+                    <a class="dropdown-item nav_menu" href="jardineria.html"
                       >Jardineria</a
                     >
                   </li>
-                  <li class="fondo_negro">
-                    <a class="dropdown-item centrar" href="./productos.html"
+                  <li>
+                    <a class="dropdown-item nav_menu" href="productos.html"
                       >Todos</a
                     >
                   </li>
                 </ul>
               </li>
-
               <li class="nav-item nav_menu">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-
               <li class="nav-item nav_menu">
-                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                <a class="nav-link" href="ayuda.html">Ayuda</a>
               </li>
-
               <li class="nav-item">
                 <!-- Link al whatsapp -->
 
@@ -120,61 +121,69 @@
       </nav>
 
       <!-- Carousel slide -->
-
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="./imagenes/robert.png"
-              class="d-block w-100"
-              alt="robert-plant"
-              width="800px "
-              height="1000px"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./imagenes/dino.jpg"
-              class="d-block w-100"
-              alt="t-rex"
-              width="800px "
-              height="1000px"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./imagenes/figurasdeaccion.jpg"
-              class="d-block w-100"
-              alt="figuras"
-              width="900px "
-              height="1000px"
-            />
+      <div class="container-fluid reset">
+        <div class="row">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide reset"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active tamaño">
+                <img
+                  src="./imagenes/robert.png"
+                  class="d-block w-100"
+                  alt="robert-plant"
+                  width="100vw"
+                  height="800px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imagenes/dino.jpg"
+                  class="d-block w-100"
+                  alt="t-rex"
+                  width="100vw"
+                  height="800px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imagenes/figurasdeaccion.jpg"
+                  class="d-block w-100"
+                  alt="figuras"
+                  width="100vw"
+                  height="800px"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
       </div>
-
       <br />
     </main>
 
@@ -186,10 +195,10 @@
         </p>
       </div>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
 </html>

@@ -15,6 +15,11 @@ ul {
   list-style: none;
 }
 
+.reset {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 /*Menu_de_navegacion*/
 #menu ul li {
   padding: 15px;
@@ -196,11 +201,9 @@ footer {
   position: fixed;
   /* FOOTER AL FINAL DE PAGINA*/
   bottom: 0px;
-  width: 100%;
+  width: 100vw;
 }
 
 footer div {
-  padding: 10px;
   margin-top: 10px;
-  height: 50px;
 }
