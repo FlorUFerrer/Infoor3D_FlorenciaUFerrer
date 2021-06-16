@@ -25,25 +25,6 @@
   text-align: center;
 }
 
-.contenedor_imagen2 {
-  display: grid;
-  grid-template-columns: $sizeper - 80 $sizeper - 20;
-  text-align: center;
-}
-
-.contenedor_imagen3 {
-  display: grid;
-  grid-template-columns: $sizeper / 2 $sizeper / 2;
-  text-align: center;
-}
-
-.contenedor_imagen4 {
-  display: grid;
-  grid-template-columns: $sizeper / 2.5 $sizeper - 40;
-  grid-template-rows: $sizeper;
-  text-align: center;
-}
-
 /*--TAMAÑO DEL FORMULARIO--*/
 .campo {
   height: $sizepx * 4.5;
@@ -59,8 +40,32 @@ fieldset {
 
 /*--IMAGEN LUNA--*/
 
-.luna_imagen {
-  width: $sizepx * 4;
-  height: $sizepx * 5;
-  border-radius: $sizepx / 20;
+.contenedor_luna {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  border: 2px solid $color-negro;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 1;
+  border: 2px solid $color-negro;
+}
+
+/*---COLOR DE REDES EN CONTACTO ---*/
+
+.verde {
+  color: $color-verde;
+}
+.rosa {
+  color: $color-pink;
 }

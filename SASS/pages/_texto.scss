@@ -1,0 +1,18 @@
+.texto {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  font-size: x-large;
+  height: 850px;
+}
+.parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+}
+
+.info {
+  padding: $sizepx - 40;
+}

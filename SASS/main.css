@@ -15,11 +15,6 @@ ul {
   list-style: none;
 }
 
-.reset {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 /*Menu_de_navegacion*/
 #menu ul li {
   padding: 15px;
@@ -54,7 +49,7 @@ ul {
 }
 
 .redes-insta:hover {
-  color: #ad253c;
+  color: #da2ab3;
 }
 
 .nav-item {
@@ -121,32 +116,6 @@ ul {
   text-align: center;
 }
 
-.contenedor_imagen2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
-  text-align: center;
-}
-
-.contenedor_imagen3 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  text-align: center;
-}
-
-.contenedor_imagen4 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
-  text-align: center;
-}
-
 /*--TAMAÑO DEL FORMULARIO--*/
 .campo {
   height: 450px;
@@ -161,10 +130,45 @@ fieldset {
 }
 
 /*--IMAGEN LUNA--*/
-.luna_imagen {
-  width: 400px;
-  height: 500px;
-  border-radius: 5px;
+.contenedor_luna {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.one {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  border: 2px solid #0c0c0c;
+}
+
+.two {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.four {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  border: 2px solid #0c0c0c;
+}
+
+/*---COLOR DE REDES EN CONTACTO ---*/
+.verde {
+  color: #33e050;
+}
+
+.rosa {
+  color: #da2ab3;
 }
 
 /*---CLASE ESPACIOS EN LA PAGINA ----*/
@@ -189,6 +193,34 @@ fieldset {
   padding-top: 50px;
   padding-left: 50px;
   vertical-align: top;
+}
+
+.texto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  font-size: x-large;
+  height: 850px;
+}
+
+.parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: blanchedalmond;
+}
+
+.info {
+  padding: 60px;
 }
 
 footer {
