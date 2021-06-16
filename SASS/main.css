@@ -147,16 +147,17 @@ fieldset {
   border: 2px solid #0c0c0c;
 }
 
-.two {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 1;
-  grid-row: 1;
-}
-
 .four {
   -ms-grid-column: 3;
   grid-column: 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  border: 2px solid #0c0c0c;
+}
+
+.two {
+  -ms-grid-column: 1;
+  grid-column: 1;
   -ms-grid-row: 1;
   grid-row: 1;
   border: 2px solid #0c0c0c;
@@ -173,7 +174,7 @@ fieldset {
 
 /*---CLASE ESPACIOS EN LA PAGINA ----*/
 .cuerpo {
-  height: 600px;
+  height: 100px;
 }
 
 .cuerpo2 {
@@ -193,6 +194,23 @@ fieldset {
   padding-top: 50px;
   padding-left: 50px;
   vertical-align: top;
+}
+
+/*--- TABLA AYUDA---*/
+.contenedor_tabla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.tabla_uno {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
 }
 
 .texto {
