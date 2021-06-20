@@ -4,3 +4,4 @@ Usar imagenes de internet de redes sociales
 Se agrego descripcion
 Se agregaron palabras claves
 Se cambiaron los titulos de la pagina con el nombre del proyecto : "Infoor 3d -contacto"
+Se comprimieron las imagenes para que pesen menos
