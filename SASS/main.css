@@ -116,6 +116,7 @@ ul {
 /*CAMBIOS A CARD*/
 .card {
   text-align: center;
+  border: solid 0.5px;
 }
 
 .card:hover {
