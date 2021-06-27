@@ -4,6 +4,12 @@
   background: whitesmoke;
 }
 
+@media (max-width: 600px) {
+  .media {
+    display: none;
+  }
+}
+
 html,
 body {
   margin: 0;

@@ -2,3 +2,9 @@
 .fondo {
   background: $color-cremita;
 }
+
+@media (max-width: 600px) {
+  .media {
+    display: none;
+  }
+}
