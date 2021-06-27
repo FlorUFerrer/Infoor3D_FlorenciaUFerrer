@@ -238,6 +238,10 @@ fieldset {
   padding: 60px;
 }
 
+.contacto {
+  text-align: center;
+}
+
 footer {
   background-color: #0c0c0c;
   color: #ebe5e5;
