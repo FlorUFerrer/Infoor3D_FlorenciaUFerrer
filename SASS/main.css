@@ -36,7 +36,7 @@ ul {
   display: -ms-grid;
   display: grid;
   color: #ebe5e5;
-  font-style: italic;
+  font-family: monospace;
   font-weight: bolder;
   font-size: 150%;
   padding: 15px;
@@ -261,18 +261,55 @@ ul {
 }
 
 footer {
-  background-color: #0c0c0c;
-  color: #ebe5e5;
-  border-radius: 5px;
-  border-style: groove;
-  text-align: center;
-  margin: 0px;
-  position: fixed;
-  /* FOOTER AL FINAL DE PAGINA*/
-  bottom: 0px;
-  width: 100vw;
+  padding: 5px;
+  background-color: #3b3a38;
 }
 
-footer div {
-  margin-top: 10px;
+.texto_contacto {
+  text-align: center;
+  padding-bottom: 1px;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+
+/* titulo contactanos*/
+.contactanos {
+  font-size: 1.7rem;
+  font-family: "Abel", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.seccion_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.seccion_redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texto_redes {
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
 }

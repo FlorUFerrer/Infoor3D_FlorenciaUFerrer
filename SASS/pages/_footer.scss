@@ -1,14 +1,39 @@
 footer {
-  background-color: $color-negro;
-  color: $color-blanco;
-  border-radius: $sizepx / 20;
-  border-style: groove;
+  padding: 5px;
+  background-color: rgb(59, 58, 56);
+}
+
+.texto_contacto {
   text-align: center;
-  margin: $inicial;
-  position: fixed; /* FOOTER AL FINAL DE PAGINA*/
-  bottom: $inicial;
-  width: $sizevw;
-  div {
-    margin-top: $sizepx / 10;
-  }
+  padding-bottom: 1px;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+/* titulo contactanos*/
+.contactanos {
+  font-size: 1.7rem;
+  font-family: "Abel", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.seccion_link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.seccion_redes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.texto_redes {
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
 }

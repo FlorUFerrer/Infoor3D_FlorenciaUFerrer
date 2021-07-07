@@ -10,7 +10,7 @@
 #menu li a {
   display: grid;
   color: $color-blanco;
-  font-style: italic;
+  font-family: monospace;
   font-weight: bolder;
   font-size: $sizeper * 1.5;
   padding: $sizepx - 85;
