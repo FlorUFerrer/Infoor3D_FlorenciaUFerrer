@@ -45,3 +45,9 @@
 .rosa {
   color: $color-pink;
 }
+
+@media (max-width: 1200px) {
+  .medialuna {
+    display: none;
+  }
+}

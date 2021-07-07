@@ -9,6 +9,7 @@
 .parrafo {
   display: flex;
   justify-content: center;
+  text-align: justify;
   align-items: center;
   color: blanchedalmond;
 }
@@ -19,4 +20,32 @@
 
 .contacto {
   text-align: center;
+}
+
+/***TITULO DE ACCONDION ***/
+
+.titulo {
+  display: flex;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 80px;
+  color: white;
+}
+
+/****PREGUNTAS DEL ACCORDION****/
+
+.pregunta {
+  background: rgba(0, 0, 0, 0.027);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  color: black;
+}
+
+/****RESPUESTAS DEL ACCORDION****/
+.respuesta {
+  color: #808080;
+  line-height: 20px;
 }

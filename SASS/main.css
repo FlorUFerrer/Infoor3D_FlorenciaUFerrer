@@ -148,6 +148,12 @@ ul {
   color: #da2ab3;
 }
 
+@media (max-width: 1200px) {
+  .medialuna {
+    display: none;
+  }
+}
+
 /*---CLASE ESPACIOS EN LA PAGINA ----*/
 .cuerpo {
   height: 100px;
@@ -207,6 +213,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: justify;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -219,6 +226,38 @@ ul {
 
 .contacto {
   text-align: center;
+}
+
+/***TITULO DE ACCONDION ***/
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 80px;
+  color: white;
+}
+
+/****PREGUNTAS DEL ACCORDION****/
+.pregunta {
+  background: rgba(0, 0, 0, 0.027);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+/****RESPUESTAS DEL ACCORDION****/
+.respuesta {
+  color: #808080;
+  line-height: 20px;
 }
 
 footer {
