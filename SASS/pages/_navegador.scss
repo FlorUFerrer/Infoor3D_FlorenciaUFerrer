@@ -1,5 +1,6 @@
-/*Menu_de_navegacion*/
-
+/*****************************/
+/**Inicio Menu de navegacion**/
+/*****************************/
 #menu ul li {
   padding: $sizepx - 85;
 }
@@ -23,7 +24,7 @@
   color: $color-negro;
 }
 
-/* COLOR VERDE DE ICONO WHASP*/
+/**Color de iconos de redes**/
 .redes:hover {
   color: $color-verde;
 }
@@ -31,6 +32,7 @@
 .redes-insta:hover {
   color: $color-pink;
 }
+/**Fin Color de iconos de redes**/
 
 .nav-item {
   display: flex;
@@ -57,4 +59,6 @@
   display: flex;
   justify-content: center;
 }
-/*----------------------------------*/
+/*****************************/
+/***Fin Menu de navegacion***/
+/****************************/

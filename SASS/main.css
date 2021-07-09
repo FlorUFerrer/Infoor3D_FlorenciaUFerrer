@@ -4,12 +4,22 @@
   background: whitesmoke;
 }
 
+/********RESPONSIVE DESAPARICION DE CARROUSEL A 600px********/
 @media (max-width: 600px) {
   .media {
     display: none;
   }
 }
 
+/*Saturado de imagenes del index*/
+.saturado:hover {
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+}
+
+/*******************************/
+/***Inicio de reset de página***/
+/*******************************/
 html,
 body {
   margin: 0;
@@ -21,7 +31,12 @@ ul {
   list-style: none;
 }
 
-/*Menu_de_navegacion*/
+/*****************************/
+/** Fin de reset de página***/
+/*****************************/
+/*****************************/
+/**Inicio Menu de navegacion**/
+/*****************************/
 #menu ul li {
   padding: 15px;
 }
@@ -49,7 +64,7 @@ ul {
   color: #0c0c0c;
 }
 
-/* COLOR VERDE DE ICONO WHASP*/
+/**Color de iconos de redes**/
 .redes:hover {
   color: #33e050;
 }
@@ -58,6 +73,7 @@ ul {
   color: #da2ab3;
 }
 
+/**Fin Color de iconos de redes**/
 .nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,7 +110,9 @@ ul {
           justify-content: center;
 }
 
-/*----------------------------------*/
+/*****************************/
+/***Fin Menu de navegacion***/
+/****************************/
 /*TAMAÑO DE IMAGENES*/
 .imagen {
   background-color: #4c4b55;
@@ -148,6 +166,7 @@ ul {
   color: #da2ab3;
 }
 
+/****RESPONSIVE: Ocultar imagen luego de 1200px***/
 @media (max-width: 1200px) {
   .medialuna {
     display: none;
@@ -178,23 +197,7 @@ ul {
   vertical-align: top;
 }
 
-/*--- TABLA AYUDA---*/
-.contenedor_tabla {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-}
-
-.tabla_uno {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 1;
-  grid-row: 1;
-}
-
+/****Inicio modificadores de seccion CONTACTOS******/
 .texto {
   display: -ms-grid;
   display: grid;
@@ -228,7 +231,8 @@ ul {
   text-align: center;
 }
 
-/***TITULO DE ACCONDION ***/
+/****Fin modificadores de seccion CONTACTOS******/
+/***TITULO DE ACCORDION ***/
 .titulo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,11 +264,15 @@ ul {
   line-height: 20px;
 }
 
+/**************************************/
+/****Inicio modificaciones al footer***/
+/**************************************/
 footer {
   padding: 5px;
   background-color: #3b3a38;
 }
 
+/**Posicion, color,fuente**/
 .texto_contacto {
   text-align: center;
   padding-bottom: 1px;
@@ -273,7 +281,7 @@ footer {
   color: white;
 }
 
-/* titulo contactanos*/
+/**Titulo contactanos**/
 .contactanos {
   font-size: 1.7rem;
   font-family: "Abel", sans-serif;
@@ -287,6 +295,7 @@ footer {
   width: 400px;
 }
 
+/*** Posicion y color a redes ***/
 .seccion_link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,6 +307,7 @@ footer {
   color: white;
 }
 
+/**Centra redes**/
 .seccion_redes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,3 +323,7 @@ footer {
   font-family: monospace;
   color: white;
 }
+
+/**************************************/
+/****Fin modificaciones al footer***/
+/**************************************/

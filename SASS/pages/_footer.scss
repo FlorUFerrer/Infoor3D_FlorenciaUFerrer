@@ -1,8 +1,11 @@
+/**************************************/
+/****Inicio modificaciones al footer***/
+/**************************************/
 footer {
   padding: 5px;
   background-color: rgb(59, 58, 56);
 }
-
+/**Posicion, color,fuente**/
 .texto_contacto {
   text-align: center;
   padding-bottom: 1px;
@@ -10,7 +13,7 @@ footer {
   font-family: monospace;
   color: white;
 }
-/* titulo contactanos*/
+/**Titulo contactanos**/
 .contactanos {
   font-size: 1.7rem;
   font-family: "Abel", sans-serif;
@@ -19,13 +22,14 @@ footer {
   margin: 20px auto;
   width: 400px;
 }
-
+/*** Posicion y color a redes ***/
 .seccion_link {
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
 }
+/**Centra redes**/
 .seccion_redes {
   display: flex;
   text-align: center;
@@ -37,3 +41,7 @@ footer {
   font-family: monospace;
   color: white;
 }
+
+/**************************************/
+/****Fin modificaciones al footer***/
+/**************************************/

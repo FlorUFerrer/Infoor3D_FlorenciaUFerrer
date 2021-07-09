@@ -45,7 +45,7 @@
 .rosa {
   color: $color-pink;
 }
-
+/****RESPONSIVE: Ocultar imagen luego de 1200px***/
 @media (max-width: 1200px) {
   .medialuna {
     display: none;

@@ -3,8 +3,15 @@
   background: $color-cremita;
 }
 
+/********RESPONSIVE DESAPARICION DE CARROUSEL A 600px********/
 @media (max-width: 600px) {
   .media {
     display: none;
   }
+}
+
+
+/*Saturado de imagenes del index*/
+.saturado:hover {
+  filter: saturate(0);
 }
